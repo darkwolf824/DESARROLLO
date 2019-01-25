@@ -1,0 +1,26 @@
+Destinos Turísticos
+América 
+1.	Argentina
+	1.	Buenos Aires
+	2.	Bariloche
+2.	Brasil
+	1.	Rio de Janeiro
+	2.	Brasilia
+3.	Chile
+	1.	Santiago  
+	2.	Valparaiso
+4.	Colombia
+	1.	Bogotá
+	2.	Cartagena de Indias
+5.	Estados Unidos 
+	1.	New York
+	2.	San Francisco
+6.	México
+	1.	Cancún
+	2.	Acapulco 
+7.	Perú
+	1.	Lima
+	2.	Cuzco
+8.	Venezuela 
+	1.	Margarita
+	2.	Mérida
