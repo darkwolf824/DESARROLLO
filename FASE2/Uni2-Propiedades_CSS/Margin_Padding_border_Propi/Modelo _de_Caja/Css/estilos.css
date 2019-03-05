@@ -1,0 +1,6 @@
+article[class^='caja']{
+  border: 4px solid black;
+  display: inline-inline-block;
+  height: 220px;
+  width:400px;
+}
