@@ -1,6 +1,13 @@
 article[class^='caja']{
-  border: 4px solid black;
+  border: 4px;
+  border:4px;
+  border-style: solid;
+  border-color: black;
   display: inline-inline-block;
   height: 220px;
   width:400px;
+  text-align: justify;
+  
 }
+.caja1{
+  margin:50px 20px;}
