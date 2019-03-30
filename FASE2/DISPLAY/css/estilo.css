@@ -1,0 +1,12 @@
+h1{
+  background-color: rgb(113,59,81);
+  opacity: 0;
+  
+}
+h2{
+  background-color: rgb(118,50,81);
+  display: inline;
+}
+p{
+  display: inline;
+}
