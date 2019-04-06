@@ -1,0 +1,55 @@
+body {
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
+}
+/*CABECERA*/
+header{
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #5CA861 , #BADFBC); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #5CA861 , #BADFBC); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #5CA861 , #BADFBC); /* Standard syntax */
+	border-radius: 10px;
+}
+/*COMBINA CABECERA Y TITULO PRINCIPAL*/
+header h1{
+	padding-left: 10px;
+}
+/*TOMA EL ID DE NAVBAR*/
+#menu-principal ul {
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+}
+/*TOMA EL ID DE NAVBAR AFECTA SOLO A LAS FILAS*/
+#menu-principal ul li {
+	padding: 10px;
+	list-style-type: none;
+}
+/*TOMA EL ID DE SECTION*/
+#contenido {
+	background-image: url(../imagenes/imagen3.jpg);
+	margin-left: 200px;
+	padding: 10px;
+	color: black;
+	border-radius: 6px;
+}
+
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+/*TOMA EL ID DE SECTION Y AFECTA SOLO A LOS PARRAFOS P E IMAGENES IMG*/
+#contenido p img {
+	float: right;
+	border: solid 2px #605B56;
+	margin: 3px;
+	border-radius: 4px;
+}

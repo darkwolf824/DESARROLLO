@@ -121,6 +121,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		padding: 0;
 		text-align: center;
 		width: 800px;
+		border-radius: 5px;
 	}
 
 	#banner nav ul {list-style: none; margin: 0 auto; width: 800px;}
@@ -134,10 +135,12 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		text-decoration: none;
 	}
 	#banner nav a:hover, #banner nav a:active{
+		border-radius: 15px 10px;
 		background: hsla(200, 60%, 50%, 0.65);
 		text-shadow: none !important;
 	}
 	#banner nav .active a:link, #banner nav .active a:visited {
+border-radius: 10px 15px 6px;
 		background: #3399CC;
 		text-shadow: none !important;
 	}
@@ -153,6 +156,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	overflow: hidden;
 	padding: 20px;
 	width: 760px;
+	border-radius: 50px 30px 15px 5px;
 }
 
 #featured h2 {font-size: 1.714em; margin-bottom: 0.333em;}
@@ -169,6 +173,9 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	overflow: hidden;
 	padding: 20px 20px;
 	width: 760px;
+}
+#content .hentry{
+	background: linear-gradient(#fff,#67B8DE,#CDEDFF);
 }
 
 /*
@@ -195,8 +202,13 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 	/* Blogroll */
 	#extras .blogroll {
+		background: radial-gradient(#FFF,#3399CC,#FFF);
 		float: left;
 		width: 615px;
+	}
+	/*cambio color letra*/
+	#extras.blogroll a:link, #extras .blogroll a:visited{
+		color:#363636;
 	}
 
 	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
