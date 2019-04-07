@@ -1,8 +1,8 @@
 body {
 	font-family: Verdana;
-	font-size: 3vw;
 	width: 90%;
-	margin-left: 10%;
+	margin-left: 5%;
+	font-size: 3vw;
 }
 
 header {
@@ -14,12 +14,12 @@ header {
 	background: linear-gradient(to right, #1f47a8, #55dedf); /* Standard syntax */
 	border-radius: 1vh;
 }
-# contenido{
-	margin: 1%;
 
+#contenido{
+	margin: 1%;
 }
+
 header h1 {
-margin: 1%;
 	padding-left: 1%;
 	font-size: 1.5em;
 }
